@@ -1,0 +1,3 @@
+MongoDB Aggregation Pipeline:
+1) $unwind: "$reviews"
+2) $group: { _id: "$product_id", avgRating: { $avg: "$reviews.rating" }}
