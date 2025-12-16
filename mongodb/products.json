@@ -1,1 +1,22 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 20,
+    "reviews": [
+      { "user_id": 1, "rating": 5, "comment": "Excellent!" },
+      { "user_id": 2, "rating": 4, "comment": "Good value." }
+    ]
+  },
+  {
+    "product_id": "P002",
+    "name": "Keyboard",
+    "category": "Electronics",
+    "price": 30,
+    "reviews": [
+      { "user_id": 3, "rating": 3, "comment": "Average keyboard." }
+    ]
+  }
+]
 
