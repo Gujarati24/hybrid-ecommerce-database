@@ -3,10 +3,10 @@
 Below are the screenshots for the ER diagram and example queries/outputs.
 
 ## ER diagram
-![ER diagram](er_diagram.png)
+![ER diagram](er_diagram1.png)
 
 ## MySQL screenshots
-![MySQL tables - placeholder](screenshots/uploaded_screenshot.svg)
+![MySQL tables - placeholder](screenshots/C:\Users\Prathav Savani\Downloads\mysql_tables.png)
 ![MySQL join](screenshots/mysql_join.png)
 ![MySQL aggregation](screenshots/mysql_aggregation.png)
 
