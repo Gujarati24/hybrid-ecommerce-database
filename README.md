@@ -26,6 +26,83 @@ Below are the screenshots for the ER diagram and example outputs.
 
 ---
 
+---
+
+## 🏗 System Architecture  
+### Hybrid SQL–NoSQL Architecture
+
+![System Architecture](docs/screenshots/architecture.png)
+
+This diagram shows how the Python layer interacts with both databases:
+
+- Sends SQL queries to **MySQL**
+- Sends document queries to **MongoDB**
+- Aggregates results into a unified output layer
+
+---
+
+## 🔄 Data Flow Diagram  
+Shows how data moves between the user, integration layer, MySQL, and MongoDB.
+
+![Data Flow Diagram](docs/screenshots/dataflow.png)
+
+---
+
+## 🗂 ER Diagram (MySQL)
+
+![ER Diagram](docs/screenshots/er_diagram1.png)
+
+Tables include:
+
+- Users  
+- Orders  
+- Order Items  
+- Products (SQL metadata)  
+
+---
+
+## 💾 Database Components  
+
+### ✔ MySQL  
+Used for ACID-compliant transactions:
+
+- Users  
+- Orders  
+- Order Items  
+- Minimal product metadata  
+
+### ✔ MongoDB  
+Used for flexible, schema-free product storage:
+
+- Product details  
+- Embedded customer reviews  
+- Dynamic attributes  
+
+---
+
+## 🧪 Results & Screenshots  
+
+### 📊 SQL Aggregation Query
+![SQL Aggregation](docs/screenshots/mysql_aggregation.png)
+
+### 🧮 MongoDB Aggregation Pipeline
+![MongoDB Aggregation](docs/screenshots/mongo_aggregation.PNG)
+
+### 📝 MongoDB Product Document
+![MongoDB Document](docs/screenshots/mongo_document.png)
+
+### 🖥 Python Integration Output
+![Python Output](docs/screenshots/integration_output.png)
+
+---
+
+## ▶ How to Run This Project  
+
+### 1️⃣ Install Dependencies  
+```bash
+pip install pymongo mysql-connector-python
+
+
 ## ER Diagram
 ![ER Diagram](docs/screenshots/er_diagram1.png)
 
